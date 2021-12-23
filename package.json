@@ -1,5 +1,4 @@
 {
-  "homepage": "http://HOGENT-Web.github.io/frontendweb-pieter-2122-DeKuyffer-Robbe",
   "name": "fact-website",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +19,6 @@
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
