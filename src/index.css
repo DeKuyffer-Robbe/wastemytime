@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
+label {
+  @apply block text-sm font-medium text-gray-700 text-left;
+}
+
+input {
+  @apply mt-1 focus:outline-none focus:ring-gray-600 focus:ring-2 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md;
+}
+
+select{
+  @apply mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md;
+}
+
+button{
+  @apply ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+  margin: 1rem;
+  font-family: 'Catamaran', sans-serif;
+}
+
+img {
+  @apply block ml-auto mr-auto w-6/12  max-w-screen-sm;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #49A7FF;
+  color: white;
+  height: 3rem;
+}
+
+li{
+  list-style-type: none;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: 'Catamaran', sans-serif;
+  color: #49A7FF;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem;
+}
+
+.quiz-page-grid, .fact-grid, .humor-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
+  margin:3rem;
+}
+
+.image-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin:3rem;
+}
+
+.avatar-grid{
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;  
+  margin:3rem;
+}
+
+.homepage-h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Catamaran', sans-serif;
+  color: #49A7FF;
+}
+
+.fact-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-gehele-container, .create-own-fact-button{
+  margin-top: 3rem;
+}
+
+.quiz-vraag{
+  margin-bottom: 3rem;
+}
+
+.avatar{
+  margin-bottom: 3rem;
+  border: 3px solid #49A7FF;
+}
+
+.error-message{
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: smaller;
+}
+
+.correct-answer{
+  color: green;
+}
+
+.wrong-answer{
+  color: red
+}

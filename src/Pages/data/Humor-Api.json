@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Chuck Norris Jokes",
+        "url" : "https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random",
+        "header" : {
+            "method" : "GET",
+            "headers" : {
+                "accept": "application/json",
+                "x-rapidapi-host": "matchilling-chuck-norris-jokes-v1.p.rapidapi.com",
+                "x-rapidapi-key": "d43572c772msh31b689861b721ebp1e4ee8jsnc201468e003c"
+            }
+        } 
+    }
+]

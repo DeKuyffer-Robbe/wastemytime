@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "Cat",
+        "url" : "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=1"
+    },
+    {
+        "name" : "Random",
+        "url" : "https://facts-by-api-ninjas.p.rapidapi.com/v1/facts",
+        "header" : {
+            "method" : "GET",
+            "headers" : {
+                "x-rapidapi-host" :"facts-by-api-ninjas.p.rapidapi.com",
+                "x-rapidapi-key" : "d43572c772msh31b689861b721ebp1e4ee8jsnc201468e003c"
+            }
+        }
+       
+    }
+]

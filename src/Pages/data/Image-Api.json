@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "Cat",
+        "url" : "https://aws.random.cat/meow"
+    },
+    {
+        "name" : "Dog",
+        "url" : "https://random.dog/woof.json"
+    },
+    {
+        "name" : "Fox",
+        "url" : "https://randomfox.ca/floof/"
+    },
+    {
+        "name" : "Pokemon (can be shiny)",
+        "url" : null
+    }
+]
