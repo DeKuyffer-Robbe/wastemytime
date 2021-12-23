@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wastemytime/static/css/main.4f76aa5e.chunk.css",
+    "main.js": "/wastemytime/static/js/main.42ae90cc.chunk.js",
+    "main.js.map": "/wastemytime/static/js/main.42ae90cc.chunk.js.map",
+    "runtime-main.js": "/wastemytime/static/js/runtime-main.00539961.js",
+    "runtime-main.js.map": "/wastemytime/static/js/runtime-main.00539961.js.map",
+    "static/js/2.7e113f3c.chunk.js": "/wastemytime/static/js/2.7e113f3c.chunk.js",
+    "static/js/2.7e113f3c.chunk.js.map": "/wastemytime/static/js/2.7e113f3c.chunk.js.map",
+    "static/js/3.6fcda59f.chunk.js": "/wastemytime/static/js/3.6fcda59f.chunk.js",
+    "static/js/3.6fcda59f.chunk.js.map": "/wastemytime/static/js/3.6fcda59f.chunk.js.map",
+    "index.html": "/wastemytime/index.html",
+    "static/css/main.4f76aa5e.chunk.css.map": "/wastemytime/static/css/main.4f76aa5e.chunk.css.map",
+    "static/js/2.7e113f3c.chunk.js.LICENSE.txt": "/wastemytime/static/js/2.7e113f3c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00539961.js",
+    "static/js/2.7e113f3c.chunk.js",
+    "static/css/main.4f76aa5e.chunk.css",
+    "static/js/main.42ae90cc.chunk.js"
+  ]
+}
